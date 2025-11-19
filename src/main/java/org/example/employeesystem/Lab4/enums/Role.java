@@ -1,4 +1,4 @@
-package org.example.employeesystem.Lab3.enums;
+package org.example.employeesystem.Lab4.enums;
 
 public enum Role {
     ROLE_USER,

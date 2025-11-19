@@ -1,7 +1,7 @@
-package org.example.employeesystem.Lab3.config;
+package org.example.employeesystem.Lab4.config;
 
-import org.example.employeesystem.Lab3.security.JwtAuthenticationFilter;
-import org.example.employeesystem.Lab3.security.JwtUtil;
+import org.example.employeesystem.Lab4.security.JwtAuthenticationFilter;
+import org.example.employeesystem.Lab4.security.JwtUtil;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.security.authentication.AuthenticationManager;
@@ -34,7 +34,15 @@ public class SecurityConfig {
         http.csrf(csrf -> csrf.disable());
 
         http.authorizeHttpRequests(auth -> auth
+
+                .requestMatchers(
+                        "/v3/api-docs/**",
+                        "/swagger-ui/**",
+                        "/swagger-ui.html"
+                ).permitAll()
+
                 .requestMatchers("/api/auth/**").permitAll()
+
                 .anyRequest().authenticated()
         );
 

@@ -1,4 +1,4 @@
-package org.example.employeesystem.Lab3.security;
+package org.example.employeesystem.Lab4.security;
 
 import io.jsonwebtoken.*;
 import io.jsonwebtoken.security.Keys;
@@ -16,7 +16,7 @@ public class JwtUtil {
 
     public JwtUtil(@Value("${jwt.secret}") String secret,
                    @Value("${jwt.expiration}") long expirationMillis) {
-        // create HMAC key from secret
+
         this.key = Keys.hmacShaKeyFor(secret.getBytes());
         this.expirationMillis = expirationMillis;
     }

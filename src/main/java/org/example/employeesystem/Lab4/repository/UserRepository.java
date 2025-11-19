@@ -1,6 +1,6 @@
-package org.example.employeesystem.Lab3.repository;
+package org.example.employeesystem.Lab4.repository;
 
-import org.example.employeesystem.Lab3.Entity.User;
+import org.example.employeesystem.Lab4.Entity.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 import java.util.Optional;
 

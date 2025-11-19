@@ -34,3 +34,11 @@ logging:
 
 server:
   port: 8988
+
+
+  git add .
+git commit -m "Lab 4: Swagger API documentation"
+  git push -u origin lab4-swagger
+  git add .
+git commit -m "Lab 4: Swagger API documentation"
+  git push -u origin lab4-swagger
