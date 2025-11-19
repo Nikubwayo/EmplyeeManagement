@@ -1,7 +1,7 @@
-package org.example.employeesystem.Lab2.config;
+package org.example.employeesystem.Lab3.config;
 
-import org.example.employeesystem.Lab2.security.JwtAuthenticationFilter;
-import org.example.employeesystem.Lab2.security.JwtUtil;
+import org.example.employeesystem.Lab3.security.JwtAuthenticationFilter;
+import org.example.employeesystem.Lab3.security.JwtUtil;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.security.authentication.AuthenticationManager;

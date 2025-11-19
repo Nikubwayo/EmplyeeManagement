@@ -1,4 +1,4 @@
-package org.example.employeesystem.Lab2.security;
+package org.example.employeesystem.Lab3.security;
 
 import io.jsonwebtoken.*;
 import io.jsonwebtoken.security.Keys;

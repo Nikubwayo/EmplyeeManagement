@@ -1,4 +1,4 @@
-package org.example.employeesystem.Lab2.dto;
+package org.example.employeesystem.Lab3.dto;
 
 import lombok.*;
 

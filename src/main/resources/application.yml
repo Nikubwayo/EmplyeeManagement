@@ -5,8 +5,8 @@ spring:
   datasource:
 
     url: jdbc:postgresql://localhost:5432/employeedb
-    username: postgres
-    password: 123
+    username: USER_NAME
+    password: USER_PASSWORD
 
     driver-class-name: org.postgresql.Driver
 
@@ -23,7 +23,7 @@ spring:
       WRITE_DATES_AS_TIMESTAMPS: false
 
 jwt:
-  secret: "THIS_IS_A_VERY_LONG_SECURE_JWT_SECRET_KEY_FOR_LAB2_AUTHENTICATION_SYSTEM_1234567890"
+  secret: SECRET_KEY
   expiration: 3600000
 
 logging:

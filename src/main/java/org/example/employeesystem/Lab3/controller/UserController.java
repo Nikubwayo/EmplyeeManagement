@@ -1,8 +1,8 @@
-package org.example.employeesystem.Lab2.controller;
+package org.example.employeesystem.Lab3.controller;
 
-import org.example.employeesystem.Lab2.dto.RegisterRequest;
-import org.example.employeesystem.Lab2.Entity.User;
-import org.example.employeesystem.Lab2.service.UserService;
+import org.example.employeesystem.Lab3.dto.RegisterRequest;
+import org.example.employeesystem.Lab3.Entity.User;
+import org.example.employeesystem.Lab3.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.*;
 import org.springframework.security.access.prepost.PreAuthorize;

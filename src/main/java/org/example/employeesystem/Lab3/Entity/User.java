@@ -1,8 +1,8 @@
-package org.example.employeesystem.Lab2.Entity;
+package org.example.employeesystem.Lab3.Entity;
 
 import jakarta.persistence.*;
 import lombok.*;
-import org.example.employeesystem.Lab2.enums.Role;
+import org.example.employeesystem.Lab3.enums.Role;
 
 @Entity
 @Table(name = "users", uniqueConstraints = {
