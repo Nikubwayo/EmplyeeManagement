@@ -1,12 +1,12 @@
-package org.example.employeesystem.Lab3.controller;
+package org.example.employeesystem.Lab4.controller;
 
-import org.example.employeesystem.Lab3.dto.AuthRequest;
-import org.example.employeesystem.Lab3.dto.AuthResponse;
-import org.example.employeesystem.Lab3.dto.RegisterRequest;
-import org.example.employeesystem.Lab3.Entity.User;
-import org.example.employeesystem.Lab3.enums.Role;
-import org.example.employeesystem.Lab3.security.JwtUtil;
-import org.example.employeesystem.Lab3.service.UserService;
+import org.example.employeesystem.Lab4.dto.AuthRequest;
+import org.example.employeesystem.Lab4.dto.AuthResponse;
+import org.example.employeesystem.Lab4.dto.RegisterRequest;
+import org.example.employeesystem.Lab4.Entity.User;
+import org.example.employeesystem.Lab4.enums.Role;
+import org.example.employeesystem.Lab4.security.JwtUtil;
+import org.example.employeesystem.Lab4.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.security.authentication.AuthenticationManager;

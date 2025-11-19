@@ -1,9 +1,9 @@
-package org.example.employeesystem.Lab3.service;
+package org.example.employeesystem.Lab4.service;
 
-import org.example.employeesystem.Lab3.dto.RegisterRequest;
-import org.example.employeesystem.Lab3.Entity.User;
-import org.example.employeesystem.Lab3.enums.Role;
-import org.example.employeesystem.Lab3.repository.UserRepository;
+import org.example.employeesystem.Lab4.dto.RegisterRequest;
+import org.example.employeesystem.Lab4.Entity.User;
+import org.example.employeesystem.Lab4.enums.Role;
+import org.example.employeesystem.Lab4.repository.UserRepository;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 
