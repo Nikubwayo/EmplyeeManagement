@@ -1,7 +1,7 @@
-package org.example.employeesystem.Lab2.service;
+package org.example.employeesystem.Lab3.service;
 
-import org.example.employeesystem.Lab2.Entity.User;
-import org.example.employeesystem.Lab2.repository.UserRepository;
+import org.example.employeesystem.Lab3.Entity.User;
+import org.example.employeesystem.Lab3.repository.UserRepository;
 import org.springframework.security.core.userdetails.*;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.stereotype.Service;
