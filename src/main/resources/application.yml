@@ -1,6 +1,6 @@
 spring:
   application:
-    name: Lab4
+    name: Lab2
 
   datasource:
 
